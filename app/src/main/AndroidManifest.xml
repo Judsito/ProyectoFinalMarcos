@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.com.marcosfinalproyecto.proyectofinalmarcos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity_FormularioLogIn"
+            android:label="@string/title_activity_main__formulario_log_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_FormularioLog"
+            android:label="@string/title_activity_main__formulario_log"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2ActivityLogIn"
+            android:label="@string/title_activity_main2_log_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_FormularioLogInn"
+            android:label="@string/title_activity_main__formulario_log_inn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FormularioLogIn"
+            android:label="@string/title_activity_formulario_log_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_FormInic"
+            android:label="@string/title_activity_main__form_inic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_FormLista"
+            android:label="@string/title_activity_main__form_lista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_Registrarse"
+            android:label="@string/title_activity_main__registrarse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_Buscar"
+            android:label="@string/title_activity_main__buscar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
