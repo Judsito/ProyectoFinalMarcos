@@ -72,8 +72,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="100dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="122dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -82,11 +82,11 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/txt_apellido"
         tools:layout_editor_absoluteX="124dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/txt_apellido"
         android:layout_width="202dp"
         android:layout_height="42dp"
         android:ems="10"
