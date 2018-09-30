@@ -9,7 +9,7 @@
     tools:showIn="@layout/activity_main__form_inic">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/titulo_login"
         android:layout_width="wrap_content"
         android:layout_height="77dp"
         android:lineSpacingExtra="18sp"
@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="28dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/usuario"
         android:layout_width="114dp"
         android:layout_height="49dp"
         android:text="Usuario:"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteY="172dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txt_usuario"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,7 +43,7 @@
         tools:layout_editor_absoluteY="161dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/contraseña"
         android:layout_width="111dp"
         android:layout_height="44dp"
         android:text="Contraseña:"
@@ -54,7 +54,7 @@
         tools:layout_editor_absoluteY="255dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txt_contraseña"
         android:layout_width="168dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -63,7 +63,7 @@
         tools:layout_editor_absoluteY="246dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enviar Datos"
@@ -72,7 +72,7 @@
         tools:layout_editor_absoluteY="372dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/boton_resetear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resetear"
