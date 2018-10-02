@@ -36,7 +36,8 @@
         android:layout_height="wrap_content"
         android:text="Enviar"
         tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="301dp" />
+        tools:layout_editor_absoluteY="301dp"
+        tools:onClick="@string/app_name" />
 
     <Button
         android:id="@+id/boton_restaurar"

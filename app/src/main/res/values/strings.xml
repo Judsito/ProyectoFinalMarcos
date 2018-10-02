@@ -7,7 +7,7 @@
     <string name="title_activity_main__formulario_log_inn">MainActivity_FormularioLogInn</string>
     <string name="title_activity_formulario_log_in">FormularioLogIn</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_main__form_inic">MainActivity_FormInic</string>
+    <string name="title_activity_main__form_inic" translatable="false">MainActivity_FormInic</string>
     <string name="title_activity_main__form_lista">MainActivity_FormLista</string>
     <string name="title_activity_main__registrarse">MainActivity_Registrarse</string>
     <string name="title_activity_main__buscar">MainActivity_Buscar</string>

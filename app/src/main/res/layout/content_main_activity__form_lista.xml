@@ -29,6 +29,7 @@
         android:id="@+id/enviar_ubicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="@string/title_activity_main__registrarse"
         android:text="Enviar Ubicacion"
         android:typeface="monospace"
         tools:layout_editor_absoluteX="124dp"
