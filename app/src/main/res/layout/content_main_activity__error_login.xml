@@ -26,6 +26,7 @@
         android:id="@+id/boton_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/title_activity_main__formulario_log"
         android:text="Volver al Login"
         android:textStyle="bold"
         android:typeface="monospace"
