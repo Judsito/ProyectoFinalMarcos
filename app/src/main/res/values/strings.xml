@@ -11,4 +11,5 @@
     <string name="title_activity_main__form_lista">MainActivity_FormLista</string>
     <string name="title_activity_main__registrarse">MainActivity_Registrarse</string>
     <string name="title_activity_main__buscar">MainActivity_Buscar</string>
+    <string name="title_activity_main__error_login">MainActivity_ErrorLogin</string>
 </resources>
