@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity_ErrorBusca"
+    tools:showIn="@layout/activity_main__error_busca">
+
+    <TextView
+        android:id="@+id/error_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error al buscar esa persona"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/boton_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/title_activity_main__buscar"
+        android:text="Volver al Buscador"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="201dp" />
+</android.support.constraint.ConstraintLayout>

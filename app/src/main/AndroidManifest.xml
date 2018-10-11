@@ -62,6 +62,14 @@
         <activity
             android:name=".MainActivity_ErrorLogin"
             android:label="@string/title_activity_main__error_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_ErrorBuscar"
+            android:label="@string/title_activity_main__error_buscar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity_ErrorBusca"
+            android:label="@string/title_activity_main__error_busca"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

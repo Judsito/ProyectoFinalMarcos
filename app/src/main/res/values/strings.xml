@@ -12,4 +12,6 @@
     <string name="title_activity_main__registrarse">MainActivity_Registrarse</string>
     <string name="title_activity_main__buscar">MainActivity_Buscar</string>
     <string name="title_activity_main__error_login">MainActivity_ErrorLogin</string>
+    <string name="title_activity_main__error_buscar">MainActivity_ErrorBuscar</string>
+    <string name="title_activity_main__error_busca">MainActivity_ErrorBusca</string>
 </resources>
